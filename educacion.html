@@ -42,49 +42,98 @@
   <table width="600" border="0" cellpadding="5" cellspacing="2" align="center">
     <th colspan="3" align="left" bgcolor="black"><h2 style="color:white">DATOS PERSONALES</h2></th>
       <tr align="left">
-        <td width="300"><h3>Nombres:</h3></td>
-        <td><em>Nicolás</em></td>
+      <td width="300"><h3>Nombres:</h3></td>
+      <td><em>Nicolás</em></td>
       </tr>
       <tr align="left">
-        <td width="300"><h3>Apellidos:</h3></td>
-        <td><em>Ángel Cubillos</em></td>
+      <td width="300"><h3>Apellidos:</h3></td>
+      <td><em>Ángel Cubillos</em></td>
       </tr>
       <tr align="left">
-        <td width="300"><h3>Fecha de Nacimiento:</h3></td>
-        <td><em>25 de octubre de 1986</em></td>
+      <td width="300"><h3>Fecha de Nacimiento:</h3></td>
+      <td><em>25 de octubre de 1986</em></td>
       </tr>
   </table>
 <!-- Enlaces de menú básico -->
   <table width="600" border="1" cellpadding="5" cellspacing="2" align="center">
     <nav>
       <tr align="center">
-        <td width="200"><a href="index.html">Inicio</a></td>
-        <td width="200"><a href="educacion.html">Educación</a></td>
-        <td width="200"><a href="experiencia.html">Experiencia</a></td>
+      <td width="200"><a href="index.html">Inicio</a></td>
+      <td width="200"><a href="educacion.html">Educación</a></td>
+      <td width="200"><a href="experiencia.html">Experiencia</a></td>
       </tr>
     </nav>
   </table>
-<!-- Información Personal -->
-  <table width="600" border="0" cellpadding="5" cellspacing="2" align="center">
-    <th colspan="3" align="left" bgcolor="black"><h2 style="color:white">INFORMACIÓN PERSONAL</h2></th>
+<!-- Educación -->
+  <table width="600" border="1" cellpadding="5" cellspacing="2" align="center">
+    <th colspan="4" align="left" bgcolor="black"><h2 style="color:white">EDUCACIÓN</h2></th>
       <tr align="center">
-        <td><img src="img/fotoPerfil.jpg" alt="Foto de Perfil" title="Foto de Nico" height="200px" border="2"/></td>
-      </tr>
-<!-- Perfil -->
-      <tr align="center">
-        <td align="justify"><p>Soy artista y creativo, dedicado al campo de la gestión cultural y la pedagogía artística y musical, utilizando mis habilidades para
-        la planeación estratégica en la organización de eventos académicos y culturales con un plus en la traducción simultánea para invitados internacionales,
-        el diseño de piezas publicitarias y el desarrollo Web.
-        <br/>
-        <br/><strong><em>El arte, el diseño, el desarrollo web y la programación</em></strong> son mis pasiones, completadas con <em>mis dos hijos y mi esposa</em>, que me llenan de amor y felicidad.
-        </p></td>
+        <td width="100"><h3>Año</h3></td>
+        <td width="200"><h3>Institución</h3></td>
+        <td width="200"><h3>Lugar</h3></td>
+        <td width="100"><h3>¿Culminó?</h3></td>
       </tr>
       <tr align="left">
-        <td><ul>
-          <h4><strong>Idiomas que hablo, escribo y leo</strong></h4>
-            <li><em>Español</em></li>
-            <li><em>Inglés</em></li>
-      </ul></td>
+        <td>2010</td>
+        <td>Conservatorio del Tolima</td>
+        <td>Ibagué</td>
+        <td>Si</td>
+      </tr>
+      <tr align="left">
+        <td>2013</td>
+        <td>EAFIT</td>
+        <td>Medellín</td>
+        <td>Si</td>
+      </tr>
+      <tr align="left">
+        <td>2018</td>
+        <td>Next U</td>
+        <td>Cali</td>
+        <td>En curso</td>
+      </tr>
+  </table>
+<!-- Agregar Estudios -->
+  <table width="400" border="1" cellpadding="5" cellspacing="2" align="center">
+    <tr>
+      <td>
+      <form name="agrEstudios" autocomplete="on" align="center">
+      <fieldset>
+      <legend><strong>Agregar Estudios</strong></legend>
+        <p>
+          <label for="anio">Año:</label>
+          <br>
+          <select name="anio">
+            <option value="1">2018</option>
+            <option value="1">2017</option>
+            <option value="1">2016</option>
+            <option value="1">2015</option>
+            <option value="1">2014</option>
+            <option value="1">2013</option>
+            <option value="1">2012</option>
+            <option value="1">2011</option>
+            <option value="1">2009</option>
+            <option value="1">2008</option>
+            <option value="1">2007</option>
+            <option value="1">2006</option>
+          </select>
+        </p>
+        <p>
+          <label for="institucion">Institución:</label>
+          <br>
+          <input type="text" name="institucion" required>
+        </p>
+        <p>
+          <label for="lugar">Lugar:</label>
+          <br>
+          <textarea name="lugar" cols="30" rows="3"></textarea>
+        </p>
+        <p>
+          <input type="submit" name="Enviar">
+        </p>
+      </fieldset>
+      </form>
+      </td>
+    </tr>
   </table>
 </body>
 <footer>
@@ -92,19 +141,19 @@
   <table width="600" border="0" cellpadding="5" cellspacing="2" align="center">
     <th colspan="3" align="left" bgcolor="black"><h2 style="color:white">INFORMACIÓN DE CONTACTO</h2></th>
       <tr align="center">
-        <td width="200"><h3>E-mail</h3></td>
-        <td width="200"><h3>Celular</h3></td>
-        <td width="200"><h3>Redes Sociales</h3></td>
+      <td width="200"><h3>E-mail</h3></td>
+      <td width="200"><h3>Celular</h3></td>
+      <td width="200"><h3>Redes Sociales</h3></td>
       </tr>
       <tr>
-        <td align="left">nikolazki@gmail.com</td>
-        <td align="center">+57 319 486 0598</td>
-        <td align="right"><strong>Instagram:</strong> @nikolazki</td>
+      <td align="left">nikolazki@gmail.com</td>
+      <td align="center">+57 319 486 0598</td>
+      <td align="right"><strong>Instagram:</strong> @nikolazki</td>
       </tr>
       <tr>
-        <td align="left">nikolazki.design@gmail.com</td>
-        <td align="center">+57 305 310 3470</td>
-        <td align="right"><strong>Facebook:</strong> nikolazki86</td>
+      <td align="left">nikolazki.design@gmail.com</td>
+      <td align="center">+57 305 310 3470</td>
+      <td align="right"><strong>Facebook:</strong> nikolazki86</td>
       </tr>
   </table>
 </footer>
